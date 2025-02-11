@@ -86,7 +86,9 @@
   
     yesButton.addEventListener('click', () => {
       imageDisplay.src = './images/image7.png'; // Change to image7.gif
-      valentineQuestion.textContent = "Yayyy!! Thank you po for subscribing :3"; // Change the question text
+      imageDisplay.style.width = "500px"; // Adjust as needed
+      imageDisplay.style.height = "auto"; // Maintains aspect ratio
+      valentineQuestion.textContent = ":3"; // Change the question text
       responseButtons.style.display = 'none'; // Hide both buttons
       confetti(); // Trigger confetti animation
     });
